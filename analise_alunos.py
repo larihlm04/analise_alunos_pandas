@@ -21,7 +21,7 @@ print(df["nota"].max()) #maior nota
 print(df["nota"].min()) #menor nota
 print(df[df["nota"] >=6 ]["nome"]) #aprovados
 print(df[df["nota"] < 6 ]["nome"]) #reprovados
-print len(df[df["nota"] >=6 ]["nome"])#quantos aprovados
-print len(df[df["nota"] < 6 ]["nome"])#quantos reprovados
+print (len(df[df["nota"] >=6 ]["nome"]))#quantos aprovados
+print (len(df[df["nota"] < 6 ]["nome"]))#quantos reprovados
 
 # filtro -> colunas
